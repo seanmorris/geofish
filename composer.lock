@@ -4,48 +4,8 @@
         "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
         "This file is @generated automatically"
     ],
-    "content-hash": "82389b5db5ba1556ec6f71226e321bcb",
+    "content-hash": "175c300672abc1dbe21a7187aae53c9a",
     "packages": [
-        {
-            "name": "seanmorris/ids",
-            "version": "dev-master",
-            "source": {
-                "type": "git",
-                "url": "https://github.com/seanmorris/ids.git",
-                "reference": "34dbb591d904ff4a72cec15063ee04e66932a71a"
-            },
-            "dist": {
-                "type": "zip",
-                "url": "https://api.github.com/repos/seanmorris/ids/zipball/34dbb591d904ff4a72cec15063ee04e66932a71a",
-                "reference": "34dbb591d904ff4a72cec15063ee04e66932a71a",
-                "shasum": ""
-            },
-            "require-dev": {
-                "phpunit/phpunit": "^9",
-                "seanmorris/ksqlc": "dev-master",
-                "simpletest/simpletest": "dev-master"
-            },
-            "bin": [
-                "bin/idilic"
-            ],
-            "type": "library",
-            "autoload": {
-                "psr-4": {
-                    "SeanMorris\\Ids\\Test\\": "test/",
-                    "SeanMorris\\Ids\\": "source/"
-                }
-            },
-            "notification-url": "https://packagist.org/downloads/",
-            "authors": [
-                {
-                    "name": "Sean Morris",
-                    "email": "sean@sean-morris.com"
-                }
-            ],
-            "time": "2020-06-11T19:40:51+00:00"
-        }
-    ],
-    "packages-dev": [
         {
             "name": "hautelook/phpass",
             "version": "1.1.0",
@@ -166,6 +126,44 @@
             ],
             "description": "Simple, Object oriented forms for PHP.",
             "time": "2020-03-01T00:52:28+00:00"
+        },
+        {
+            "name": "seanmorris/ids",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/seanmorris/ids.git",
+                "reference": "34dbb591d904ff4a72cec15063ee04e66932a71a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/seanmorris/ids/zipball/34dbb591d904ff4a72cec15063ee04e66932a71a",
+                "reference": "34dbb591d904ff4a72cec15063ee04e66932a71a",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9",
+                "seanmorris/ksqlc": "dev-master",
+                "simpletest/simpletest": "dev-master"
+            },
+            "bin": [
+                "bin/idilic"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SeanMorris\\Ids\\Test\\": "test/",
+                    "SeanMorris\\Ids\\": "source/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Sean Morris",
+                    "email": "sean@sean-morris.com"
+                }
+            ],
+            "time": "2020-06-11T19:40:51+00:00"
         },
         {
             "name": "seanmorris/kallisti",
@@ -308,7 +306,9 @@
             ],
             "description": "Simple, sane templating and theming for PHP",
             "time": "2017-07-02T12:52:16+00:00"
-        },
+        }
+    ],
+    "packages-dev": [
         {
             "name": "simpletest/simpletest",
             "version": "dev-master",
@@ -394,16 +394,18 @@
     "minimum-stability": "stable",
     "stability-flags": {
         "seanmorris/ids": 20,
-        "simpletest/simpletest": 20,
         "seanmorris/access": 20,
         "seanmorris/presskit": 20,
         "seanmorris/form": 20,
         "seanmorris/message": 20,
-        "seanmorris/kallisti": 20
+        "seanmorris/kallisti": 20,
+        "simpletest/simpletest": 20
     },
     "prefer-stable": false,
     "prefer-lowest": false,
-    "platform": [],
+    "platform": {
+        "ext-mbstring": "*"
+    },
     "platform-dev": [],
     "plugin-api-version": "1.1.0"
 }

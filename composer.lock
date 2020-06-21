@@ -1,0 +1,409 @@
+{
+    "_readme": [
+        "This file locks the dependencies of your project to a known state",
+        "Read more about it at https://getcomposer.org/doc/01-basic-usage.md#installing-dependencies",
+        "This file is @generated automatically"
+    ],
+    "content-hash": "82389b5db5ba1556ec6f71226e321bcb",
+    "packages": [
+        {
+            "name": "seanmorris/ids",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/seanmorris/ids.git",
+                "reference": "34dbb591d904ff4a72cec15063ee04e66932a71a"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/seanmorris/ids/zipball/34dbb591d904ff4a72cec15063ee04e66932a71a",
+                "reference": "34dbb591d904ff4a72cec15063ee04e66932a71a",
+                "shasum": ""
+            },
+            "require-dev": {
+                "phpunit/phpunit": "^9",
+                "seanmorris/ksqlc": "dev-master",
+                "simpletest/simpletest": "dev-master"
+            },
+            "bin": [
+                "bin/idilic"
+            ],
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SeanMorris\\Ids\\Test\\": "test/",
+                    "SeanMorris\\Ids\\": "source/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Sean Morris",
+                    "email": "sean@sean-morris.com"
+                }
+            ],
+            "time": "2020-06-11T19:40:51+00:00"
+        }
+    ],
+    "packages-dev": [
+        {
+            "name": "hautelook/phpass",
+            "version": "1.1.0",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/hautelook/phpass.git",
+                "reference": "b2daca28508000d1dd126e93ec472d771626a774"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/hautelook/phpass/zipball/b2daca28508000d1dd126e93ec472d771626a774",
+                "reference": "b2daca28508000d1dd126e93ec472d771626a774",
+                "shasum": ""
+            },
+            "require": {
+                "php": ">=5.6.0"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-0": {
+                    "Hautelook": "src/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Public Domain"
+            ],
+            "authors": [
+                {
+                    "name": "Solar Designer",
+                    "email": "solar@openwall.com",
+                    "homepage": "http://openwall.com/phpass/"
+                }
+            ],
+            "description": "Portable PHP password hashing framework",
+            "homepage": "http://github.com/hautelook/phpass/",
+            "keywords": [
+                "blowfish",
+                "crypt",
+                "password",
+                "security"
+            ],
+            "time": "2012-08-31T00:00:00+00:00"
+        },
+        {
+            "name": "seanmorris/access",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/seanmorris/access.git",
+                "reference": "9c3fa4f00c15526637225bc9e4277e50ba90d1b0"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/seanmorris/access/zipball/9c3fa4f00c15526637225bc9e4277e50ba90d1b0",
+                "reference": "9c3fa4f00c15526637225bc9e4277e50ba90d1b0",
+                "shasum": ""
+            },
+            "require": {
+                "hautelook/phpass": "^1.0"
+            },
+            "require-dev": {
+                "simpletest/simpletest": "^1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SeanMorris\\Access\\Test\\": "test/",
+                    "SeanMorris\\Access\\": "source/",
+                    "seanmorris\\access\\": "source/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Sean Morris",
+                    "email": "sean@sean-morris.com"
+                }
+            ],
+            "time": "2020-05-30T15:50:42+00:00"
+        },
+        {
+            "name": "seanmorris/form",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/seanmorris/form.git",
+                "reference": "6051f4ae7a773178650599b7f317cef301c5e1eb"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/seanmorris/form/zipball/6051f4ae7a773178650599b7f317cef301c5e1eb",
+                "reference": "6051f4ae7a773178650599b7f317cef301c5e1eb",
+                "shasum": ""
+            },
+            "require": {
+                "seanmorris/theme": "1.0.*"
+            },
+            "require-dev": {
+                "simpletest/simpletest": "^1.1"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SeanMorris\\Form\\Test\\": "test/",
+                    "SeanMorris\\Form\\": "source/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sean Morris",
+                    "email": "sean@sean-morris.com"
+                }
+            ],
+            "description": "Simple, Object oriented forms for PHP.",
+            "time": "2020-03-01T00:52:28+00:00"
+        },
+        {
+            "name": "seanmorris/kallisti",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/seanmorris/kallisti.git",
+                "reference": "d59d9e1457ad132dc6748bbbbdb514dc311e53a9"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/seanmorris/kallisti/zipball/d59d9e1457ad132dc6748bbbbdb514dc311e53a9",
+                "reference": "d59d9e1457ad132dc6748bbbbdb514dc311e53a9",
+                "shasum": ""
+            },
+            "require-dev": {
+                "simpletest/simpletest": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SeanMorris\\Kallisti\\Test\\": "test/",
+                    "SeanMorris\\Kallisti\\": "source/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Sean Morris",
+                    "email": "inquire@seanmorr.is"
+                }
+            ],
+            "description": "Chaos Management Engine",
+            "time": "2019-07-21T23:15:36+00:00"
+        },
+        {
+            "name": "seanmorris/message",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/seanmorris/message.git",
+                "reference": "73c1b67f72dedba14c572e6e80c2c4fdd7ac8d3e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/seanmorris/message/zipball/73c1b67f72dedba14c572e6e80c2c4fdd7ac8d3e",
+                "reference": "73c1b67f72dedba14c572e6e80c2c4fdd7ac8d3e",
+                "shasum": ""
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SeanMorris\\Message\\Test\\": "test/",
+                    "SeanMorris\\Message\\": "source/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Sean Morris",
+                    "email": "sean@sean-morris.com"
+                }
+            ],
+            "time": "2018-05-07T18:57:24+00:00"
+        },
+        {
+            "name": "seanmorris/presskit",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/seanmorris/PressKit.git",
+                "reference": "0a3d51d78aa17953c32165f2644e861a7ea5d85e"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/seanmorris/PressKit/zipball/0a3d51d78aa17953c32165f2644e861a7ea5d85e",
+                "reference": "0a3d51d78aa17953c32165f2644e861a7ea5d85e",
+                "shasum": ""
+            },
+            "require": {
+                "seanmorris/access": "dev-master",
+                "seanmorris/form": "dev-master",
+                "seanmorris/ids": "dev-master",
+                "seanmorris/kallisti": "dev-master",
+                "seanmorris/message": "dev-master",
+                "seanmorris/theme": ">=1"
+            },
+            "require-dev": {
+                "simpletest/simpletest": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SeanMorris\\PressKit\\Test\\": "test/",
+                    "SeanMorris\\PressKit\\": "source/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "authors": [
+                {
+                    "name": "Sean Morris",
+                    "email": "sean@sean-morris.com"
+                }
+            ],
+            "time": "2020-05-31T20:53:02+00:00"
+        },
+        {
+            "name": "seanmorris/theme",
+            "version": "1.0.7",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/seanmorris/theme.git",
+                "reference": "97554e153312026c7db4af8ae3653d20fe9d117d"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/seanmorris/theme/zipball/97554e153312026c7db4af8ae3653d20fe9d117d",
+                "reference": "97554e153312026c7db4af8ae3653d20fe9d117d",
+                "shasum": ""
+            },
+            "require-dev": {
+                "simpletest/simpletest": "dev-master"
+            },
+            "type": "library",
+            "autoload": {
+                "psr-4": {
+                    "SeanMorris\\Theme\\Test\\": "test/",
+                    "SeanMorris\\Theme\\": "source/"
+                }
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "Apache-2.0"
+            ],
+            "authors": [
+                {
+                    "name": "Sean Morris",
+                    "email": "sean@sean-morris.com"
+                }
+            ],
+            "description": "Simple, sane templating and theming for PHP",
+            "time": "2017-07-02T12:52:16+00:00"
+        },
+        {
+            "name": "simpletest/simpletest",
+            "version": "dev-master",
+            "source": {
+                "type": "git",
+                "url": "https://github.com/simpletest/simpletest.git",
+                "reference": "140876ef9ac9a10f884c3657f022829fc5ce64d2"
+            },
+            "dist": {
+                "type": "zip",
+                "url": "https://api.github.com/repos/simpletest/simpletest/zipball/140876ef9ac9a10f884c3657f022829fc5ce64d2",
+                "reference": "140876ef9ac9a10f884c3657f022829fc5ce64d2",
+                "shasum": ""
+            },
+            "require": {
+                "php": "^7.1"
+            },
+            "require-dev": {
+                "ext-dom": "*",
+                "ext-mbstring": "*",
+                "ext-tidy": "*"
+            },
+            "type": "library",
+            "autoload": {
+                "classmap": [
+                    "src/"
+                ],
+                "exclude-from-classmap": [
+                    "/test"
+                ]
+            },
+            "notification-url": "https://packagist.org/downloads/",
+            "license": [
+                "LGPL-2.0+"
+            ],
+            "authors": [
+                {
+                    "name": "Marcus Baker",
+                    "email": "marcus@lastcraft.com",
+                    "role": "Original project lead"
+                },
+                {
+                    "name": "Jason Sweat",
+                    "role": "Original developer"
+                },
+                {
+                    "name": "Travis Swicegood",
+                    "role": "Original developer"
+                },
+                {
+                    "name": "Perrick Penet",
+                    "role": "Original developer"
+                },
+                {
+                    "name": "Edward Z. Yang",
+                    "role": "Original developer"
+                },
+                {
+                    "name": "Lachlan Donald",
+                    "email": "lachlan@ljd.cc"
+                },
+                {
+                    "name": "Lars Vierbergen",
+                    "email": "vierbergenlars@gmail.com"
+                },
+                {
+                    "name": "Jens A. Koch"
+                }
+            ],
+            "description": "SimpleTest is a framework for unit testing, web site testing and mock objects for PHP.",
+            "homepage": "http://simpletest.org/",
+            "keywords": [
+                "SimpleTest",
+                "code-coverage",
+                "selenium",
+                "testing",
+                "unit-test"
+            ],
+            "time": "2020-04-26T13:57:35+00:00"
+        }
+    ],
+    "aliases": [],
+    "minimum-stability": "stable",
+    "stability-flags": {
+        "seanmorris/ids": 20,
+        "simpletest/simpletest": 20,
+        "seanmorris/access": 20,
+        "seanmorris/presskit": 20,
+        "seanmorris/form": 20,
+        "seanmorris/message": 20,
+        "seanmorris/kallisti": 20
+    },
+    "prefer-stable": false,
+    "prefer-lowest": false,
+    "platform": [],
+    "platform-dev": [],
+    "plugin-api-version": "1.1.0"
+}

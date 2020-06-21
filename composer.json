@@ -1,0 +1,30 @@
+{
+    "name": "seanmorris/canworms",
+    "description": "Project template for Ids projects.",
+    "type": "project",
+    "license": "Apache-2.0",
+    "authors": [
+        {
+            "name": "Sean Morris",
+            "email": "sean@seanmorr.is"
+        }
+    ],
+    "require": {
+        "seanmorris/ids": "dev-master"
+    },
+    "require-dev": {
+		"simpletest/simpletest": "dev-master",
+		"seanmorris/access": "dev-master",
+		"seanmorris/presskit": "dev-master",
+		"seanmorris/form": "dev-master",
+		"seanmorris/theme": "dev-master",
+		"seanmorris/message": "dev-master",
+		"seanmorris/kallisti": "dev-master"
+	}
+	, "autoload": {
+		"psr-4": {
+			"SeanMorris\\CanWorms\\Test\\":"test/"
+			, "SeanMorris\\CanWorms\\":"source/"
+		}
+	}
+}
